@@ -1,0 +1,6 @@
+[hosts:children]
+web
+
+[web]
+ubuntu-01	ansible_hosts=10.0.3.38
+ubuntu-02	ansible_hosts=10.0.3.51
